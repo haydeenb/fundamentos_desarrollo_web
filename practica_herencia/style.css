@@ -1,0 +1,28 @@
+.father {
+    display: flex;
+    width: 800px; 
+    height: 800px;
+    border: 1px solid black;
+}
+
+.children {
+    height: 300px;
+}
+
+.children-1 {
+    background: black;
+    width: 300px;
+    align-self: center;
+}
+
+.children-2 {
+    background: lightgreen;
+    width: 300px;
+    align-self: flex-end;
+}
+
+.children-3 {
+    background: orchid;
+    width: 300px;
+    align-self: stretch;
+}
