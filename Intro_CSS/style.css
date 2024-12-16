@@ -1,4 +1,4 @@
-/* .tag_product{
+.tag_product{
     color: red;
 }
 
@@ -9,42 +9,48 @@
 
 .wrapper-card {
     color: purple; 
-} */
+} 
 
-
-/* 1. Selector universal */
-/* 0.0.0.0 */
-* {
+.box-1{
+    width: 100px;
+    height: 100px;
     background: red;
 }
-
-/* 2. Selector por elemento de HTML */
-/* 0.0.0.1 */
-p {
+.box-2{
+    width: 100px;
+    height: 100px;
+    background: green;
+}
+.box-3{
+    width: 100px;
+    height: 100px;
+    background: blue;
+}
+.box-4{
+    width: 100px;
+    height: 100px;
+    background: yellow;
+}
+.box-5{
+    width: 100px;
+    height: 100px;
     background: yellowgreen;
 }
-
-
-/* 3. Selector por clase  */
-/* 0.0.1.0 */
-.product_description {
-    background: pink;
+.box-6{
+    width: 100px;
+    height: 100px;
+    background: purple;
+}
+.box-7{
+    width: 100px;
+    height: 100px;
+    background: peru;
 }
 
-/* 4. Selector por id  */
-/* 0.1.0.0 */
-#unique-description-1{
-    background: skyblue;
-}
 
-#unique-product-2{
-    background: white;
-}
-
-li {
-    background: violet !important;
-}
-
-.wrapper-card p {
-    background: yellow;
+.flex {
+    display: flex;
+    height: 600px;
+  
+    flex-wrap: wrap;
 }
