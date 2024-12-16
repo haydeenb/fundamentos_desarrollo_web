@@ -1,0 +1,50 @@
+/* .tag_product{
+    color: red;
+}
+
+.wrapper-card {
+    color: green; 
+    font-size: 50px;
+}
+
+.wrapper-card {
+    color: purple; 
+} */
+
+
+/* 1. Selector universal */
+/* 0.0.0.0 */
+* {
+    background: red;
+}
+
+/* 2. Selector por elemento de HTML */
+/* 0.0.0.1 */
+p {
+    background: yellowgreen;
+}
+
+
+/* 3. Selector por clase  */
+/* 0.0.1.0 */
+.product_description {
+    background: pink;
+}
+
+/* 4. Selector por id  */
+/* 0.1.0.0 */
+#unique-description-1{
+    background: skyblue;
+}
+
+#unique-product-2{
+    background: white;
+}
+
+li {
+    background: violet !important;
+}
+
+.wrapper-card p {
+    background: yellow;
+}
